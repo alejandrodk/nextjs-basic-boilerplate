@@ -1,0 +1,4 @@
+[*.{ts, js, tsx, jsx}]
+end_of_line = lf
+[{.editorconfig}]
+end_of_line = crlf
