@@ -1,5 +1,5 @@
 import React from "react";
-import { Hello } from "@components";
+import { Hello } from "src/components";
 
 const Home = () => {
   return (
