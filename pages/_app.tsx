@@ -1,7 +1,9 @@
 // import App from 'next/app'
 
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+import { AppProps } from "next/dist/shared/lib/router/router";
+
+function MyApp({ Component, pageProps }: AppProps) {
+  return <Component {...pageProps} />;
 }
 
 // Only uncomment this method if you have blocking data requirements for
@@ -16,4 +18,4 @@ function MyApp({ Component, pageProps }) {
 //   return { ...appProps }
 // }
 
-export default MyApp
+export default MyApp;

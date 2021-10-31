@@ -1,10 +1,9 @@
 import React from "react";
+import { Hello } from "@components";
 
 const Home = () => {
   return (
-    <div>
-      <h1>Hola mundo!</h1>
-    </div>
+      <Hello />
   );
 };
 
